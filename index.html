@@ -9,8 +9,6 @@
     <!-- Bootstrap -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
 
 
 
@@ -23,27 +21,34 @@
   </head>
   <body>
     <div class="container text-center">
-        <h1>Tweet & follow the Daily Show live!</h1>
+        <h1>Tweet & follow the Daily Show live</h1>
       <br/>
 
       <div class="row">
+
+        <!-- Send a Tweet --> 
+        <div class="col-md-6 col-md-offset-3 well">
+          <h4>Click button below to send a tweet!</h4>
+
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="leeshapton">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+        </div>
+      
+      </div>
+      <div class="row">
         
         <!-- Twitter Feed --> 
-        <div class="col-md-6">
+        <div class="col-md-6 col-md-offset-3">
 
            <a class="twitter-timeline" href="https://twitter.com/TheDailyShow" data-widget-id="530168430297481216">Tweets by @TheDailyShow</a>
 
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
         </div>
+      
+      </div>
 
-        <!-- Send a Tweet --> 
-        <div class="col-md-6">
-          <h4>Click button below to send a tweet!</h4>
-
-          <a href="https://twitter.com/share" class="twitter-share-button" data-via="leeshapton">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </div>
 
     </div>
 
